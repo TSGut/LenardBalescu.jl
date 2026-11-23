@@ -1,6 +1,7 @@
 # LenardBalescu.jl
 
 [![CI](https://github.com/TSGut/LenardBalescu.jl/actions/workflows/tests.yml/badge.svg)](https://github.com/TSGut/LenardBalescu.jl/actions/workflows/tests.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24462246.svg)](https://doi.org/10.5281/zenodo.24462246)
 
 Julia companion code for 3D and 2D multi-threaded plasma simulations using particle-in-cell methods with **Lenard-Balescu** or **Landau** collision operators.
 
