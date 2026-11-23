@@ -1,0 +1,37 @@
+# macOS Finder metadata files
+.DS_Store
+**/.DS_Store
+
+# Local working archives and agent scratch files
+/agents/
+# Generated output directories may be recreated by public examples/benchmarks.
+**/output
+
+# IDE/editor configuration files
+.vscode/
+
+# Julia code coverage and allocation tracking
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+
+# BinaryProvider and BinDeps system-specific files
+deps/deps.jl
+deps/build.log
+deps/downloads/
+deps/usr/
+deps/src/
+
+# Julia package manager files
+Manifest*.toml
+LocalPreferences.toml
+JuliaLocalPreferences.toml
+
+# Demo/benchmark output and animation frames
+examples/output/*/frames/
+examples/output/*/frames/**
+examples/output/**/*.csv
+benchmarks/output/**
+
+# Legacy MATLAB code
+Matlab/
